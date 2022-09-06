@@ -1,158 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <title>what'sapp</title>
-</head>
-<style>
-            i {
-    margin-left: -30px;
-    cursor: pointer;
+    <title>Gaurav Venner Industries</title>
+    <style>
+        .img img{
+    height: 400px;
 }
-    h2{
-        color: green;
-    }
-    #hi{
-        outline-color: greenyellow;
-    }
-    button{
-    margin-top: 10px;
-    background-color:#1FFF72;
-    padding: 10px;
-    width: 70%;
-    border-radius: 9px;
-    margin-left: 2%;
-    width: 41%;
-
+.map img{
+    height: 400px;
 }
-#img{
-    width: 500px;
-}
-main{
+p{
     text-align: center;
 }
-#facebook{
-    position: relative;
-    
+h2{
+    color: white;
 }
-#instagram{
-    margin-left: 5%;
-}
+        body{
+            background-color: rgba(27,31,34,0.85);
+        }
+        h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            letter-spacing: 0.5rem;
+            text-align: center;color: white;
+            margin: 50px;
+        }
+        .maindiv{
+            width: 70%;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(a36b1efd-33c6-4e31-9b84-b944696a682d.jpeg);
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px green;
+            animation: slider 9s infinite linear;
 
-#email{
-    padding: 1%;
-    width: 20%;
-    border-radius: 15px;
-        outline-color: greenyellow;
+        }
+        .tittle h1{
+            position: relative;
+            top: -29px;
+        }
+        @keyframes slider{
+            0%{ background-image: url('file:///Users/gauravmac/Downloads/0cbb3903-a89c-45f6-9c05-15f42e2b10a8.jpeg'); }
 
+            35%{ background-image: url('file:///Users/gauravmac/Downloads/95e268f9-2f29-47c4-9348-61a597b5f7c6.jpeg'); }
 
-}
-#password{
-    padding: 1%;
-    width: 21%;
-    border-radius: 15px;
-        outline-color: greenyellow;
+            75%{background-image: url('file:///Users/gauravmac/Downloads/a36b1efd-33c6-4e31-9b84-b944696a682d.jpeg'); }
 
-
-}
-#hi{
-    padding: 1%;
-    width: 21%;
-    border-radius: 15px;
-}
-
-
-
-
-@media screen and (max-width:948px){
-    main{
-        text-align: center;
-    }
-    
-
-    #password{
-        width: 40%;
-    }
-
-    #hi{
-        width: 40%;
-    }
-
-    #email{
-        width: 40%;
-    }
-    button{
-        width: 70%;
-    }
-
-   
-}
-
-</style>
-<body>
-    <main>
-    <form method="post">
-
-    <img src="https://www.webwise.ie/wp-content/uploads/2015/01/WhatsApp-header.jpg" alt="" id="img">
-     <div>
-    <H2>Create a New Account</H2>
- 
-</form>
-<form method="post">
-
-    phone:<select required>
-        <option>91+</option>
-        </select>  <input type="phone number" placeholder="phone number" id="hi" required>
-    <br><br>
-    Email Address:
-    <input type="text" placeholder="Enter Email Address" id="email" required>
-    <br><br>
-    password:<input type="password" name="password" placeholder="Enter New Password" id="password" required/>
-    <i class="bi bi-eye-slash" id="togglePassword" ></i>
-    <br><br>
-    <button type="submit" class="btn btn-primary">Login</button>
-    
-    </form>
-    <br><br>
-    <pr>------or sign up with--------</pr>
-    <br><br>
-    <a href="gautam facebook improvment.html"> 
-    <img src="facebook.png" height="45px" alt="facebook"></a>
-
-
-   <a href="instragram .html">
-    <img src="intragram.png" height="43px"
-     alt="instragram" id="instagram">  </a>
-
-
-     <a href="https://www.google.com/">
-        <img src="google.png" height="43px"
-         alt="instragram" id="instagram">  </a>
-         <h5>Already have an account?<a href="">Login</a></h5>
-     </div>
-    </main>
-    <script>
-        const togglePassword = document.querySelector("#togglePassword");
-        const password = document.querySelector("#password");
-
-        togglePassword.addEventListener("click", function () {
-            // toggle the type attribute
-            const type = password.getAttribute("type") === "password" ? "text" : "password";
-            password.setAttribute("type", type);
+            95%{background-image: url('file:///Users/gauravmac/Downloads/4bc91870-3fe2-4104-afdc-056006b7723d.jpeg');}
             
-            // toggle the icon
-            this.classList.toggle("bi-eye");
-        });
-
-        // prevent form submit
-        const form = document.querySelector("form");
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-        });
-    </script>
-</body>
-
+        }
+        b{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <div class="tittle"><h1>GAURAV VENNER PLYWOOD MAFACTURING INDUSTRIES</h1></div>
+    <div class="maindiv"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="img">
+        <img src="file:///Users/gauravmac/Downloads/a36b1efd-33c6-4e31-9b84-b944696a682d.jpeg">
+        <h2>GAURAV VENNER PLYWOOD INDUSTRIES</h2>
+        </div>
+        <div class="map">
+            <img src="file:///Users/gauravmac/Downloads/4bc91870-3fe2-4104-afdc-056006b7723d.jpeg">
+        </div>
+        <div class="location">
+    
+        </div>
+        <h1>Gaurav Plywood Manufacturering Industries</h1>
+        <br><br>
+        <PR>------          -----------      --------------         ---------------        --------------     --------   -  ------------    -------------------     ----------------    ---------------- --------------   ----------------   ----------------------    ------------------   ----------------------</PR>
+        <br>
+        <B>OUR FACTORY LOCATION</B><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7154.990693136866!2d85.21158955390626!3d26.278037300000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed21c232bb8799%3A0x65188a2dbddea6b0!2sGaurav%20veneer%20plywood%20industries!5e0!3m2!1sen!2sin!4v1662478093925!5m2!1sen!2sin" width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></body>
 </html>
